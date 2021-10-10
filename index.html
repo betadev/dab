@@ -12,9 +12,8 @@
 		<script type="text/javascript">var theChampDefaultLang = 'en_US', theChampCloseIconPath = './wp-content/plugins/super-socializer/images/close.png';</script>
 		<script>var theChampSiteUrl = '.', theChampVerified = 0, theChampEmailPopup = 0, heateorSsMoreSharePopupSearchText = 'Search';</script>
 			<script> var theChampFBKey = '', theChampFBLang = 'en_US', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
-						<script type="text/javascript">var theChampFBCommentUrl = './'; var theChampFBCommentColor = ''; var theChampFBCommentNumPosts = ''; var theChampFBCommentWidth = '100%'; var theChampFBCommentOrderby = ''; var theChampCommentingTabs = "wordpress,facebook,disqus", theChampGpCommentsUrl = './', theChampDisqusShortname = '', theChampScEnabledTabs = 'wordpress,fb', theChampScLabel = 'Leave a reply', theChampScTabLabels = {"wordpress":"Default Comments (0)","fb":"Facebook Comments","disqus":"Disqus Comments"}, theChampGpCommentsWidth = 0, theChampCommentingId = 'respond'</script>
-						<script> var theChampSharingAjaxUrl = './wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=595489497242932&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = './wp-content/plugins/super-socializer/images/logo.png', theChampSaveSharesLocally = 0, theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 1, heateorSsCopyLinkMessage = "Link copied.";
-				</script>
+				<script> var theChampSharingAjaxUrl = './wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=595489497242932&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = './wp-content/plugins/super-socializer/images/logo.png', theChampSaveSharesLocally = 0, theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 0, heateorSsCopyLinkMessage = "Link copied.";
+		var heateorSsHorSharingShortUrl = "https://www.donateabeat.org";		</script>
 			<style type="text/css">.the_champ_horizontal_sharing .theChampSharing{
 					color: #fff;
 				border-width: 0px;
@@ -39,27 +38,26 @@
 		.the_champ_vertical_sharing .theChampSharing:hover{
 				border-color: transparent;
 	}
-	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}div.heateor_ss_mobile_footer{display:none;}@media screen and (max-width:783px){div.the_champ_bottom_sharing ul.the_champ_sharing_ul i.theChampTCBackground{background-color:white}div.the_champ_bottom_sharing{width:100%!important;left:0!important;}div.the_champ_bottom_sharing li{width:33.333333333333% !important;}div.the_champ_bottom_sharing .theChampSharing{width: 100% !important;}div.the_champ_bottom_sharing div.theChampTotalShareCount{font-size:1em!important;line-height:35px!important}div.the_champ_bottom_sharing div.theChampTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_ss_mobile_footer{display:block;height:50px;}.the_champ_bottom_sharing{padding:0!important;display:block!important;width: auto!important;bottom:-2px!important;top: auto!important;}.the_champ_bottom_sharing .the_champ_square_count{line-height: inherit;}.the_champ_bottom_sharing .theChampSharingArrow{display:none;}.the_champ_bottom_sharing .theChampTCBackground{margin-right: 1.1em !important}}div.theChampSharingArrow{display:none}</style>
+	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}div.the_champ_sharing_title{text-align:center}ul.the_champ_sharing_ul{width:100%;text-align:center;}div.the_champ_horizontal_sharing ul.the_champ_sharing_ul li{float:none!important;display:inline-block;}</style>
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 	<!-- This site is optimized with the Yoast SEO plugin v17.1 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Donate a Beat</title>
-	<meta name="description" content="Support your favorite charity without spending a dime. Donate a Beat lets you donate to causes you care about by just listening to music.">
+	<meta name="description" content="Magically donate to your favorite cause when you listen to this music.">
 	<link rel="canonical" href="./index.html">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Donate to your favorite charity by just listening to music">
-	<meta property="og:description" content="Support your favorite cause without spending a dime. Donate a Beat lets you donate to causes you care about by just listening to great music.">
+	<meta property="og:title" content="Magically donate to your favorite cause when you listen to this music">
+	<meta property="og:description" content="Magically donate to your favorite cause when you listen to this music.">
 	<meta property="og:url" content="./">
 	<meta property="og:site_name" content="Donate a Beat">
-	<meta property="article:modified_time" content="2021-09-15T13:24:39+00:00">
-	<meta property="og:image" content="./wp-content/uploads/2021/09/enjoying_music-1.jpg">
-	<meta property="og:image:width" content="1700">
+	<meta property="article:modified_time" content="2021-10-10T06:26:35+00:00">
+	<meta property="og:image" content="./wp-content/uploads/2021/10/dab-intro-comp.jpg">
+	<meta property="og:image:width" content="1920">
 	<meta property="og:image:height" content="1080">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Donate to your favorite charity by just listening to music">
-	<meta name="twitter:description" content="Support your favorite cause without spending a dime. Donate a Beat lets you donate to causes you care about by just listening to great music.">
-	<meta name="twitter:image" content="./wp-content/uploads/2021/09/enjoying_music-1.jpg">
+	<meta name="twitter:title" content="Magically donate to your favorite cause when you listen to this music">
+	<meta name="twitter:image" content="./wp-content/uploads/2021/10/dab-intro-comp.jpg">
 	<meta name="twitter:label1" content="Est. reading time">
 	<meta name="twitter:data1" content="2 minutes">
 	<script type="application/ld+json" class="yoast-schema-graph">{
@@ -87,11 +85,11 @@
 	            "@type": "ImageObject",
 	            "@id": "./#primaryimage",
 	            "inLanguage": "en-US",
-	            "url": "./wp-content/uploads/2021/09/enjoying_music-1.jpg",
-	            "contentUrl": "./wp-content/uploads/2021/09/enjoying_music-1.jpg",
-	            "width": 1700,
+	            "url": "./wp-content/uploads/2021/10/dab-intro-comp.jpg",
+	            "contentUrl": "./wp-content/uploads/2021/10/dab-intro-comp.jpg",
+	            "width": 1920,
 	            "height": 1080,
-	            "caption": "donate by enjoying music"
+	            "caption": "Donate a Beat"
 	        },
 	        {
 	            "@type": "WebPage",
@@ -105,8 +103,8 @@
 	                "@id": "./#primaryimage"
 	            },
 	            "datePublished": "2021-08-30T15:32:50+00:00",
-	            "dateModified": "2021-09-15T13:24:39+00:00",
-	            "description": "Support your favorite charity without spending a dime. Donate a Beat lets you donate to causes you care about by just listening to music.",
+	            "dateModified": "2021-10-10T06:26:35+00:00",
+	            "description": "Magically donate to your favorite cause when you listen to this music.",
 	            "breadcrumb": {
 	                "@id": "./#breadcrumb"
 	            },
@@ -158,16 +156,16 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="./wp-includes/css/dist/block-library/style.min.css?ver=5.8.1" media="all">
 <link rel="stylesheet" id="twentytwenty-style-css" href="./wp-content/themes/twentytwenty/style.css?ver=1.8" media="all">
-<style id="twentytwenty-style-inline-css">.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e22658; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e22658; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e22658; }.fill-children-accent,.fill-children-accent * { fill: #e22658; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #feffff; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #feffff; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #2878bf; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #2878bf; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #ffffff; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #4091d7; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #4091d7; }</style>
+<style id="twentytwenty-style-inline-css">.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e41a50; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e41a50; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e41a50; }.fill-children-accent,.fill-children-accent * { fill: #e41a50; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #020202; }:root .has-background-background-color { background-color: #020202; }body,.entry-title a,:root .has-primary-color { color: #ffffff; }:root .has-primary-background-color { background-color: #ffffff; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #7f7f7f; }:root .has-secondary-background-color { background-color: #7f7f7f; }pre,fieldset,input,textarea,table,table *,hr { border-color: #262626; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #262626; }.wp-block-table.is-style-stripes { border-bottom-color: #262626; }.wp-block-latest-posts.is-grid li { border-top-color: #262626; }:root .has-subtle-background-color { color: #262626; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #d9305d; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #d9305d; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #000000; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #000000; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #7c7c7c; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #262626; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #262626; }</style>
 <link rel="stylesheet" id="twentytwenty-print-style-css" href="./wp-content/themes/twentytwenty/print.css?ver=1.8" media="print">
 <link rel="stylesheet" id="the_champ_frontend_css-css" href="./wp-content/plugins/super-socializer/css/front.css?ver=7.13.25" media="all">
 <link rel="stylesheet" id="the_champ_sharing_default_svg-css" href="./wp-content/plugins/super-socializer/css/share-svg.css?ver=7.13.25" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="./wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0" media="all">
-<link rel="stylesheet" id="elementor-frontend-css" href="./wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.3" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.4" media="all">
 <style id="elementor-frontend-inline-css">@font-face{font-family:eicons;src:url(./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(./wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}</style>
-<link rel="stylesheet" id="elementor-post-5-css" href="./wp-content/uploads/elementor/css/post-5.css?ver=1631532607" media="all">
-<link rel="stylesheet" id="elementor-global-css" href="./wp-content/uploads/elementor/css/global.css?ver=1631545441" media="all">
-<link rel="stylesheet" id="elementor-post-2-css" href="./wp-content/uploads/elementor/css/post-2.css?ver=1631712211" media="all">
+<link rel="stylesheet" id="elementor-post-5-css" href="./wp-content/uploads/elementor/css/post-5.css?ver=1631896432" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="./wp-content/uploads/elementor/css/global.css?ver=1631896433" media="all">
+<link rel="stylesheet" id="elementor-post-2-css" href="./wp-content/uploads/elementor/css/post-2.css?ver=1633832901" media="all">
 <script src="./wp-content/themes/twentytwenty/assets/js/index.js?ver=1.8" id="twentytwenty-js-js" async></script>
 <script src="./wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -180,11 +178,11 @@ img.emoji {
 <link rel="alternate" type="application/json+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F">
 <link rel="alternate" type="text/xml+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F&#038;format=xml">
 	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
-	<style id="custom-background-css">body.custom-background { background-color: #ffffff; }</style>
-	<link rel="icon" href="./wp-content/uploads/2021/09/cropped-logo_dab_small_blue-32x32.png" sizes="32x32">
-<link rel="icon" href="./wp-content/uploads/2021/09/cropped-logo_dab_small_blue-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="./wp-content/uploads/2021/09/cropped-logo_dab_small_blue-180x180.png">
-<meta name="msapplication-TileImage" content="./wp-content/uploads/2021/09/cropped-logo_dab_small_blue-270x270.png">
+	<style id="custom-background-css">body.custom-background { background-color: #020202; }</style>
+	<link rel="icon" href="./wp-content/uploads/2021/10/cropped-site_id-32x32.png" sizes="32x32">
+<link rel="icon" href="./wp-content/uploads/2021/10/cropped-site_id-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./wp-content/uploads/2021/10/cropped-site_id-180x180.png">
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2021/10/cropped-site_id-270x270.png">
 
 	</head>
 
@@ -201,7 +199,7 @@ img.emoji {
 					<div class="header-titles">
 
 						<div class="site-logo faux-heading">
-<a href="./index.html" class="custom-logo-link" rel="home" aria-current="page" data-wpel-link="internal"><img width="120" height="41" style="height: 41px;" src="./wp-content/uploads/2021/09/site_logo.jpg" class="custom-logo" alt="donate a beat logo"></a><span class="screen-reader-text">Donate a Beat</span>
+<a href="./index.html" class="custom-logo-link" rel="home" aria-current="page" data-wpel-link="internal"><img width="130" height="45" style="height: 45px;" src="./wp-content/uploads/2021/10/dab_logo.jpg" class="custom-logo" alt="logo - donate a beat"></a><span class="screen-reader-text">Donate a Beat</span>
 </div>
 					</div>
 <!-- .header-titles -->
@@ -226,7 +224,7 @@ img.emoji {
 
 								<li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-558"><a href="./index.html" aria-current="page" data-wpel-link="internal">Home</a></li>
 <li id="menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="./faqs/index.html" data-wpel-link="internal">FAQs</a></li>
-<li id="menu-item-668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="./contact_us/index.html" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="./contact_us/index.html" data-wpel-link="internal">Contact</a></li>
 
 								</ul>
 
@@ -269,7 +267,7 @@ img.emoji {
 <!-- .ancestor-wrapper -->
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668">
-<div class="ancestor-wrapper"><a href="./contact_us/index.html" data-wpel-link="internal">Contact Us</a></div>
+<div class="ancestor-wrapper"><a href="./contact_us/index.html" data-wpel-link="internal">Contact</a></div>
 <!-- .ancestor-wrapper -->
 </li>
 
@@ -297,28 +295,29 @@ img.emoji {
 <!-- .menu-modal -->
 		<div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-6af6b89 elementor-section-stretched elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6af6b89" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-c9912a5 elementor-reverse-mobile elementor-section-items-top elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="c9912a5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0518ac2" data-id="0518ac2" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c2ed5fe" data-id="c2ed5fe" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-55be0d3 elementor-widget elementor-widget-heading" data-id="55be0d3" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-element elementor-element-6742579 elementor-widget elementor-widget-image" data-id="6742579" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Support your favorite charity without spending a dime.</h2>		</div>
+															<img width="1920" height="1080" src="./wp-content/uploads/2021/10/dab-intro-comp.jpg" class="attachment-full size-full" alt="Donate a Beat" loading="lazy" srcset="./wp-content/uploads/2021/10/dab-intro-comp.jpg 1920w, ./wp-content/uploads/2021/10/dab-intro-comp-300x169.jpg 300w, ./wp-content/uploads/2021/10/dab-intro-comp-1024x576.jpg 1024w, ./wp-content/uploads/2021/10/dab-intro-comp-768x432.jpg 768w, ./wp-content/uploads/2021/10/dab-intro-comp-1536x864.jpg 1536w, ./wp-content/uploads/2021/10/dab-intro-comp-1200x675.jpg 1200w" sizes="(max-width: 1920px) 100vw, 1920px">															</div>
 				</div>
-				<div class="elementor-element elementor-element-af786d0 elementor-widget elementor-widget-heading" data-id="af786d0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-5f5ab17 elementor-widget elementor-widget-heading" data-id="5f5ab17" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">Donate a Beat lets you donate to causes you care about by just listening to great music.</p>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Magically donate to your favorite cause<text style="color:#FF5757"> by listening to this music</text>
+</h2>		</div>
 				</div>
-				<div class="elementor-element elementor-element-1905d86 elementor-widget elementor-widget-heading" data-id="1905d86" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">(pinky swear, it's 100% FREE)</p>		</div>
-				</div>
-				<div class="elementor-element elementor-element-c88684a elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c88684a" data-element_type="widget" data-widget_type="button.default">
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5a08df2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a08df2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3ed5a8d" data-id="3ed5a8d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-56496a0 elementor-align-justify elementor-mobile-align-justify elementor-tablet-align-justify elementor-widget elementor-widget-button" data-id="56496a0" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#getting-started" class="elementor-button-link elementor-button elementor-size-md" role="button">
+			<a href="#how-it-works" class="elementor-button-link elementor-button elementor-size-md" role="button">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">awesome. show me how</span>
+						<span class="elementor-button-text">Show Me How</span>
 		</span>
 					</a>
 		</div>
@@ -326,58 +325,14 @@ img.emoji {
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48b0a22" data-id="48b0a22" data-element_type="column">
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-67587c5" data-id="67587c5" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-74025a1 elementor-widget elementor-widget-image" data-id="74025a1" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="1700" height="1080" src="./wp-content/uploads/2021/09/enjoying_music-1.jpg" class="attachment-full size-full" alt="donate by enjoying music" loading="lazy" srcset="./wp-content/uploads/2021/09/enjoying_music-1.jpg 1700w, ./wp-content/uploads/2021/09/enjoying_music-1-300x191.jpg 300w, ./wp-content/uploads/2021/09/enjoying_music-1-1024x651.jpg 1024w, ./wp-content/uploads/2021/09/enjoying_music-1-768x488.jpg 768w, ./wp-content/uploads/2021/09/enjoying_music-1-1536x976.jpg 1536w, ./wp-content/uploads/2021/09/enjoying_music-1-1200x762.jpg 1200w" sizes="(max-width: 1700px) 100vw, 1700px">															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-f57bea1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f57bea1" data-element_type="section" id="getting-started" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e8c18c0" data-id="e8c18c0" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-7cd318f elementor-widget elementor-widget-image" data-id="7cd318f" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="580" height="606" src="./wp-content/uploads/2021/08/grandpa_george.png" class="attachment-large size-large" alt="grandpa george - easy to stream" loading="lazy" srcset="./wp-content/uploads/2021/08/grandpa_george.png 639w, ./wp-content/uploads/2021/08/grandpa_george-287x300.png 287w" sizes="(max-width: 580px) 100vw, 580px">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2a2d302" data-id="2a2d302" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-3d469c2 elementor-widget elementor-widget-heading" data-id="3d469c2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Getting started is so easy, even Grandpa George can do it.</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-13fe101 elementor-widget elementor-widget-heading" data-id="13fe101" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">Just follow these 4 steps and you'll be done in less than a minute.</p>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0e039ac elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0e039ac" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c4c7c09" data-id="c4c7c09" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-29f59eb elementor-widget elementor-widget-heading" data-id="29f59eb" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Step 1</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-1dc5f69 elementor-widget elementor-widget-heading" data-id="1dc5f69" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">Search and subscribe to "Donate a Beat" on your preferred music streaming app.<br><br>We're present on all your favorite apps like Spotify, Apple Music, Youtube Music, Prime Music and more.</p>		</div>
-				</div>
-				<div class="elementor-element elementor-element-d82e677 elementor-align-left elementor-mobile-align-center elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="d82e677" data-element_type="widget" data-widget_type="button.default">
+								<div class="elementor-element elementor-element-1c12498 elementor-align-justify elementor-mobile-align-justify elementor-tablet-align-justify elementor-widget elementor-widget-button" data-id="1c12498" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+			<a href="./music-links/index.html" target="_blank" class="elementor-button-link elementor-button elementor-size-md" role="button" data-wpel-link="internal">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">view complete app list</span>
+						<span class="elementor-button-text">Listen Now ♬</span>
 		</span>
 					</a>
 		</div>
@@ -385,102 +340,88 @@ img.emoji {
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c34fdc6" data-id="c34fdc6" data-element_type="column">
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a1ffada elementor-reverse-mobile elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="a1ffada" data-element_type="section" id="how-it-works" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e98da6b" data-id="e98da6b" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6c773a8 elementor-widget elementor-widget-image" data-id="6c773a8" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-element elementor-element-c775d43 elementor-widget elementor-widget-heading" data-id="c775d43" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-															<img width="1707" height="1080" src="./wp-content/uploads/2021/09/streaming_services.jpg" class="attachment-full size-full" alt="donate by streaming music" loading="lazy" srcset="./wp-content/uploads/2021/09/streaming_services.jpg 1707w, ./wp-content/uploads/2021/09/streaming_services-300x190.jpg 300w, ./wp-content/uploads/2021/09/streaming_services-1024x648.jpg 1024w, ./wp-content/uploads/2021/09/streaming_services-768x486.jpg 768w, ./wp-content/uploads/2021/09/streaming_services-1536x972.jpg 1536w, ./wp-content/uploads/2021/09/streaming_services-1200x759.jpg 1200w" sizes="(max-width: 1707px) 100vw, 1707px">															</div>
+			<h2 class="elementor-heading-title elementor-size-default">There's a simple trick behind <text style="color:#FF5757">"this magic"</text> </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e913ca3 elementor-widget elementor-widget-text-editor" data-id="e913ca3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Artists at<b> Donate a Beat</b> have created a variety of music for you to enjoy as you relax, focus, workout or go about your daily routine.</p>
+<p>Every time you listen to one of our songs, streaming apps like Spotify pay us (the creator) a little money. We then donate this money to the charitable cause mentioned in the title of the song you listened to.</p>
+<p>So, add our music to your playlist and start listening to support your favorite cause. It&#8217;s really that easy to &#8216;donate a beat&#8217;.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3ffd333 elementor-align-center elementor-mobile-align-center elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="3ffd333" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#join-us" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">wait, there's more ▼</span>
+		</span>
+					</a>
+		</div>
+				</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-e54b1e0 elementor-reverse-mobile elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e54b1e0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c569d99 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="c569d99" data-element_type="section" id="join-us">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6867aaa" data-id="6867aaa" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f32380c" data-id="f32380c" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fc72321 elementor-widget elementor-widget-image" data-id="fc72321" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-element elementor-element-1e80fbd elementor-widget elementor-widget-heading" data-id="1e80fbd" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-															<img width="1047" height="1030" src="./wp-content/uploads/2021/09/dab_screen.jpg" class="attachment-full size-full" alt="donate a beat music album" loading="lazy" srcset="./wp-content/uploads/2021/09/dab_screen.jpg 1047w, ./wp-content/uploads/2021/09/dab_screen-300x295.jpg 300w, ./wp-content/uploads/2021/09/dab_screen-1024x1007.jpg 1024w, ./wp-content/uploads/2021/09/dab_screen-768x756.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px">															</div>
+			<h2 class="elementor-heading-title elementor-size-default">Join us in creating <text style="color:#FF5757">a better world </text>through music</h2>		</div>
 				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f2f422" data-id="5f2f422" data-element_type="column">
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2a4fafe elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2a4fafe" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7498ccb" data-id="7498ccb" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-b316700 elementor-widget elementor-widget-heading" data-id="b316700" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-element elementor-element-671ab21 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image" data-id="671ab21" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Step 2</h2>		</div>
+															<img width="1920" height="1080" src="./wp-content/uploads/2021/10/partners_mobile.jpg" class="attachment-full size-full" alt="international charity partners - donate a beat" loading="lazy" srcset="./wp-content/uploads/2021/10/partners_mobile.jpg 1920w, ./wp-content/uploads/2021/10/partners_mobile-300x169.jpg 300w, ./wp-content/uploads/2021/10/partners_mobile-1024x576.jpg 1024w, ./wp-content/uploads/2021/10/partners_mobile-768x432.jpg 768w, ./wp-content/uploads/2021/10/partners_mobile-1536x864.jpg 1536w, ./wp-content/uploads/2021/10/partners_mobile-1200x675.jpg 1200w" sizes="(max-width: 1920px) 100vw, 1920px">															</div>
 				</div>
-				<div class="elementor-element elementor-element-61fd140 elementor-widget elementor-widget-heading" data-id="61fd140" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-9a88b1f elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="9a88b1f" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">As you explore our album(s), you'll notice that every track mentions a charitable cause that it is linked to.<br><br>Simply add all the tracks you like to your playlist.</p>		</div>
+															<img width="2560" height="360" src="./wp-content/uploads/2021/10/partners_desktop-scaled.jpg" class="attachment-full size-full" alt="charity partners - donate a beat" loading="lazy" srcset="./wp-content/uploads/2021/10/partners_desktop-scaled.jpg 2560w, ./wp-content/uploads/2021/10/partners_desktop-300x42.jpg 300w, ./wp-content/uploads/2021/10/partners_desktop-1024x144.jpg 1024w, ./wp-content/uploads/2021/10/partners_desktop-768x108.jpg 768w, ./wp-content/uploads/2021/10/partners_desktop-1536x216.jpg 1536w, ./wp-content/uploads/2021/10/partners_desktop-2048x288.jpg 2048w, ./wp-content/uploads/2021/10/partners_desktop-1200x169.jpg 1200w, ./wp-content/uploads/2021/10/partners_desktop-1980x278.jpg 1980w" sizes="(max-width: 2560px) 100vw, 2560px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-343bbf3 elementor-widget elementor-widget-heading" data-id="343bbf3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Together, Donate a Beat listeners support causes like animal welfare, child welfare, environmental conservation, disaster relief and more.</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3188ef2 elementor-widget elementor-widget-heading" data-id="3188ef2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Join us in creating a better world by subscribing to our newsletter below.<br><br>You'll be the first to hear about new album releases and the positive impact made possible by you.</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8d465dd elementor-widget elementor-widget-html" data-id="8d465dd" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<iframe src="https://donateabeat.substack.com/embed" style="border:0px solid ; background:black;" frameborder="0" scrolling="no"></iframe>		</div>
+				</div>
+				<div class="elementor-element elementor-element-da9f939 elementor-widget elementor-widget-heading" data-id="da9f939" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><a href="./music-links/index.html" data-wpel-link="internal">or  <text style="color:#FF5757"><u>listen to our music</u></text> first</a></p>		</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-458b030 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="458b030" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-de1a31a" data-id="de1a31a" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-9b46c92 elementor-widget elementor-widget-heading" data-id="9b46c92" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Step 3</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-e769b67 elementor-widget elementor-widget-heading" data-id="e769b67" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">whew..the hard part is over!<br><br>Now just enjoy the (amazing) beats made by our artists as you relax, focus, workout or go about your daily routine.<br><br>Every time you stream our music, we receive a tiny bit of money which is then donated to the cause mentioned in the track name.</p>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a51be12" data-id="a51be12" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-56f8813 elementor-widget elementor-widget-image" data-id="56f8813" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="1080" height="1080" src="./wp-content/uploads/2021/09/enjoying_music.jpg" class="attachment-full size-full" alt="enjoying music and donate" loading="lazy" srcset="./wp-content/uploads/2021/09/enjoying_music.jpg 1080w, ./wp-content/uploads/2021/09/enjoying_music-300x300.jpg 300w, ./wp-content/uploads/2021/09/enjoying_music-1024x1024.jpg 1024w, ./wp-content/uploads/2021/09/enjoying_music-150x150.jpg 150w, ./wp-content/uploads/2021/09/enjoying_music-768x768.jpg 768w" sizes="(max-width: 1080px) 100vw, 1080px">															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3c041dd elementor-reverse-mobile elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c041dd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-829095f" data-id="829095f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-349d789 elementor-widget elementor-widget-heading" data-id="349d789" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Step 4</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-8d161a2 elementor-widget elementor-widget-heading" data-id="8d161a2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">Subscribe to our newsletter to join the <b>Donate a Beat</b> community &amp; receive the latest updates</p>		</div>
-				</div>
-				<div class="elementor-element elementor-element-a007e02 elementor-widget elementor-widget-html" data-id="a007e02" data-element_type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-			<iframe src="https://donateabeat.substack.com/embed" style="border:0px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>		</div>
-				</div>
-				<div class="elementor-element elementor-element-9ce1fd2 elementor-widget elementor-widget-heading" data-id="9ce1fd2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-xxl">🤫</p>		</div>
-				</div>
-				<div class="elementor-element elementor-element-a860fe9 elementor-widget elementor-widget-heading" data-id="a860fe9" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-medium">Psss... subscribing also grants you access to exclusive benefits &amp; perks</p>		</div>
-				</div>
 					</div>
 		</div>
 							</div>
 		</section>
 						</div>
 					</div>
-		<div class="the_champ_sharing_container the_champ_vertical_sharing the_champ_hide_sharing the_champ_bottom_sharing" style="width:54px;left: -10px;top: 200px;-webkit-box-shadow:none;box-shadow:none;" super-socializer-data-href="https://www.donateabeat.org">
-<ul class="the_champ_sharing_ul">
-<li class=""><i style="width:50px;height:50px;margin:0;" alt="Twitter" title="Twitter" class="theChampSharing theChampTwitterBackground" onclick='theChampPopup("http://twitter.com/intent/tweet?text=Donate%20to%20your%20favorite%20charity%20by%20just%20listening%20to%20music&url=https%3A%2F%2Fwww.donateabeat.org")'><ss style="display:block;" class="theChampSharingSvg theChampTwitterSvg"></ss></i></li>
-<li class=""><i style="width:50px;height:50px;margin:0;" alt="Facebook" title="Facebook" class="theChampSharing theChampFacebookBackground" onclick='theChampPopup("https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.donateabeat.org")'><ss style="display:block;" class="theChampSharingSvg theChampFacebookSvg"></ss></i></li>
-<li class=""><i style="width:50px;height:50px;margin:0;" alt="Email" title="Email" class="theChampSharing theChampEmailBackground" onclick="window.open('mailto:?subject=' + decodeURIComponent('Home' ).replace('&', '%26') + '&body=' + decodeURIComponent('https%3A%2F%2Fwww.donateabeat.org' ), '_blank')"><ss style="display:block" class="theChampSharingSvg theChampEmailSvg"></ss></i></li>
-</ul>
-<div style="clear:both"></div>
-</div>			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+					<footer id="site-footer" role="contentinfo" class="header-footer-group">
 
 				<div class="section-inner">
 
@@ -508,24 +449,23 @@ img.emoji {
 			</footer><!-- #site-footer -->
 
 			<div id="fb-root"></div>
-	<link rel="stylesheet" id="e-animations-css" href="./wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.3" media="all">
+	<link rel="stylesheet" id="e-animations-css" href="./wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.4" media="all">
 <script src="./wp-content/plugins/super-socializer/js/front/social_login/general.js?ver=7.13.25" id="the_champ_ss_general_scripts-js"></script>
 <script src="./wp-content/plugins/super-socializer/js/front/facebook/sdk.js?ver=7.13.25" id="the_champ_fb_sdk-js"></script>
-<script src="./wp-content/plugins/super-socializer/js/front/facebook/commenting.js?ver=7.13.25" id="the_champ_fb_commenting-js"></script>
 <script src="./wp-content/plugins/super-socializer/js/front/sharing/sharing.js?ver=7.13.25" id="the_champ_share_counts-js"></script>
 <script src="./wp-includes/js/wp-embed.min.js?ver=5.8.1" id="wp-embed-js"></script>
-<script src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.3" id="elementor-webpack-runtime-js"></script>
-<script src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.3" id="elementor-frontend-modules-js"></script>
+<script src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.4" id="elementor-webpack-runtime-js"></script>
+<script src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.4" id="elementor-frontend-modules-js"></script>
 <script src="./wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="./wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
 <script src="./wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
-<script src="./wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.3" id="share-link-js"></script>
+<script src="./wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.4" id="share-link-js"></script>
 <script src="./wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"additional_custom_breakpoints":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true},"urls":{"assets":".\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2,"title":"Donate%20a%20Beat","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"additional_custom_breakpoints":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true},"urls":{"assets":".\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2,"title":"Donate%20a%20Beat","excerpt":"","featuredImage":false}};
 </script>
-<script src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.3" id="elementor-frontend-js"></script>
-<script src="./wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.3" id="preloaded-modules-js"></script>
+<script src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.4" id="elementor-frontend-js"></script>
+<script src="./wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.4" id="preloaded-modules-js"></script>
 	<script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script>

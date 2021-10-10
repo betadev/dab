@@ -12,8 +12,8 @@
 		<script type="text/javascript">var theChampDefaultLang = 'en_US', theChampCloseIconPath = './wp-content/plugins/super-socializer/images/close.png';</script>
 		<script>var theChampSiteUrl = '.', theChampVerified = 0, theChampEmailPopup = 0, heateorSsMoreSharePopupSearchText = 'Search';</script>
 			<script> var theChampFBKey = '', theChampFBLang = 'en_US', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
-				<script> var theChampSharingAjaxUrl = './wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=595489497242932&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = './wp-content/plugins/super-socializer/images/logo.png', theChampSaveSharesLocally = 0, theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 1, heateorSsCopyLinkMessage = "Link copied.";
-				</script>
+				<script> var theChampSharingAjaxUrl = './wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=595489497242932&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = './wp-content/plugins/super-socializer/images/logo.png', theChampSaveSharesLocally = 0, theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 0, heateorSsCopyLinkMessage = "Link copied.";
+		var heateorSsHorSharingShortUrl = "https://www.donateabeat.org";		</script>
 			<style type="text/css">.the_champ_horizontal_sharing .theChampSharing{
 					color: #fff;
 				border-width: 0px;
@@ -38,7 +38,7 @@
 		.the_champ_vertical_sharing .theChampSharing:hover{
 				border-color: transparent;
 	}
-	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}div.heateor_ss_mobile_footer{display:none;}@media screen and (max-width:783px){div.the_champ_bottom_sharing ul.the_champ_sharing_ul i.theChampTCBackground{background-color:white}div.the_champ_bottom_sharing{width:100%!important;left:0!important;}div.the_champ_bottom_sharing li{width:33.333333333333% !important;}div.the_champ_bottom_sharing .theChampSharing{width: 100% !important;}div.the_champ_bottom_sharing div.theChampTotalShareCount{font-size:1em!important;line-height:35px!important}div.the_champ_bottom_sharing div.theChampTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_ss_mobile_footer{display:block;height:50px;}.the_champ_bottom_sharing{padding:0!important;display:block!important;width: auto!important;bottom:-2px!important;top: auto!important;}.the_champ_bottom_sharing .the_champ_square_count{line-height: inherit;}.the_champ_bottom_sharing .theChampSharingArrow{display:none;}.the_champ_bottom_sharing .theChampTCBackground{margin-right: 1.1em !important}}div.theChampSharingArrow{display:none}</style>
+	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}div.the_champ_sharing_title{text-align:center}ul.the_champ_sharing_ul{width:100%;text-align:center;}div.the_champ_horizontal_sharing ul.the_champ_sharing_ul li{float:none!important;display:inline-block;}</style>
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 	<!-- This site is optimized with the Yoast SEO plugin v17.1 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -51,10 +51,10 @@
 	<meta property="og:description" content="Learn how the Donate a Beat community creates positive social impact through music">
 	<meta property="og:url" content="./faqs/">
 	<meta property="og:site_name" content="Donate a Beat">
-	<meta property="article:modified_time" content="2021-09-13T15:42:45+00:00">
+	<meta property="article:modified_time" content="2021-10-10T05:30:46+00:00">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:label1" content="Est. reading time">
-	<meta name="twitter:data1" content="2 minutes">
+	<meta name="twitter:data1" content="4 minutes">
 	<script type="application/ld+json" class="yoast-schema-graph">{
 	    "@context": "https://schema.org",
 	    "@graph": [
@@ -88,7 +88,7 @@
 	                "@id": "./#website"
 	            },
 	            "datePublished": "2021-09-01T12:10:57+00:00",
-	            "dateModified": "2021-09-13T15:42:45+00:00",
+	            "dateModified": "2021-10-10T05:30:46+00:00",
 	            "description": "Learn how the Donate a Beat community creates positive social impact through music",
 	            "breadcrumb": {
 	                "@id": "./faqs/#breadcrumb"
@@ -146,16 +146,16 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="./../wp-includes/css/dist/block-library/style.min.css?ver=5.8.1" media="all">
 <link rel="stylesheet" id="twentytwenty-style-css" href="./../wp-content/themes/twentytwenty/style.css?ver=1.8" media="all">
-<style id="twentytwenty-style-inline-css">.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e22658; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e22658; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e22658; }.fill-children-accent,.fill-children-accent * { fill: #e22658; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #feffff; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #feffff; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #2878bf; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #2878bf; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #ffffff; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #4091d7; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #4091d7; }</style>
+<style id="twentytwenty-style-inline-css">.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e41a50; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e41a50; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e41a50; }.fill-children-accent,.fill-children-accent * { fill: #e41a50; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #020202; }:root .has-background-background-color { background-color: #020202; }body,.entry-title a,:root .has-primary-color { color: #ffffff; }:root .has-primary-background-color { background-color: #ffffff; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #7f7f7f; }:root .has-secondary-background-color { background-color: #7f7f7f; }pre,fieldset,input,textarea,table,table *,hr { border-color: #262626; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #262626; }.wp-block-table.is-style-stripes { border-bottom-color: #262626; }.wp-block-latest-posts.is-grid li { border-top-color: #262626; }:root .has-subtle-background-color { color: #262626; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #d9305d; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #d9305d; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #000000; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #000000; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #7c7c7c; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #262626; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #262626; }</style>
 <link rel="stylesheet" id="twentytwenty-print-style-css" href="./../wp-content/themes/twentytwenty/print.css?ver=1.8" media="print">
 <link rel="stylesheet" id="the_champ_frontend_css-css" href="./../wp-content/plugins/super-socializer/css/front.css?ver=7.13.25" media="all">
 <link rel="stylesheet" id="the_champ_sharing_default_svg-css" href="./../wp-content/plugins/super-socializer/css/share-svg.css?ver=7.13.25" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="./../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0" media="all">
-<link rel="stylesheet" id="elementor-frontend-css" href="./../wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.3" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./../wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.4" media="all">
 <style id="elementor-frontend-inline-css">@font-face{font-family:eicons;src:url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}</style>
-<link rel="stylesheet" id="elementor-post-5-css" href="./../wp-content/uploads/elementor/css/post-5.css?ver=1631532607" media="all">
-<link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1631545441" media="all">
-<link rel="stylesheet" id="elementor-post-195-css" href="./../wp-content/uploads/elementor/css/post-195.css?ver=1631547908" media="all">
+<link rel="stylesheet" id="elementor-post-5-css" href="./../wp-content/uploads/elementor/css/post-5.css?ver=1631896432" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1631896433" media="all">
+<link rel="stylesheet" id="elementor-post-195-css" href="./../wp-content/uploads/elementor/css/post-195.css?ver=1633843847" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
 <script src="./../wp-content/themes/twentytwenty/assets/js/index.js?ver=1.8" id="twentytwenty-js-js" async></script>
@@ -170,11 +170,11 @@ img.emoji {
 <link rel="alternate" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2Ffaqs%2F">
 <link rel="alternate" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2Ffaqs%2F&#038;format=xml">
 	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
-	<style id="custom-background-css">body.custom-background { background-color: #ffffff; }</style>
-	<link rel="icon" href="./../wp-content/uploads/2021/09/cropped-logo_dab_small_blue-32x32.png" sizes="32x32">
-<link rel="icon" href="./../wp-content/uploads/2021/09/cropped-logo_dab_small_blue-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="./../wp-content/uploads/2021/09/cropped-logo_dab_small_blue-180x180.png">
-<meta name="msapplication-TileImage" content="./wp-content/uploads/2021/09/cropped-logo_dab_small_blue-270x270.png">
+	<style id="custom-background-css">body.custom-background { background-color: #020202; }</style>
+	<link rel="icon" href="./../wp-content/uploads/2021/10/cropped-site_id-32x32.png" sizes="32x32">
+<link rel="icon" href="./../wp-content/uploads/2021/10/cropped-site_id-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./../wp-content/uploads/2021/10/cropped-site_id-180x180.png">
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2021/10/cropped-site_id-270x270.png">
 
 	</head>
 
@@ -191,7 +191,7 @@ img.emoji {
 					<div class="header-titles">
 
 						<div class="site-logo faux-heading">
-<a href="./../index.html" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="120" height="41" style="height: 41px;" src="./../wp-content/uploads/2021/09/site_logo.jpg" class="custom-logo" alt="donate a beat logo"></a><span class="screen-reader-text">Donate a Beat</span>
+<a href="./../index.html" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="130" height="45" style="height: 45px;" src="./../wp-content/uploads/2021/10/dab_logo.jpg" class="custom-logo" alt="logo - donate a beat"></a><span class="screen-reader-text">Donate a Beat</span>
 </div>
 					</div>
 <!-- .header-titles -->
@@ -216,7 +216,7 @@ img.emoji {
 
 								<li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-558"><a href="./../index.html" data-wpel-link="internal">Home</a></li>
 <li id="menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-195 current_page_item menu-item-559"><a href="./index.html" aria-current="page" data-wpel-link="internal">FAQs</a></li>
-<li id="menu-item-668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="./../contact_us/index.html" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="./../contact_us/index.html" data-wpel-link="internal">Contact</a></li>
 
 								</ul>
 
@@ -259,7 +259,7 @@ img.emoji {
 <!-- .ancestor-wrapper -->
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668">
-<div class="ancestor-wrapper"><a href="./../contact_us/index.html" data-wpel-link="internal">Contact Us</a></div>
+<div class="ancestor-wrapper"><a href="./../contact_us/index.html" data-wpel-link="internal">Contact</a></div>
 <!-- .ancestor-wrapper -->
 </li>
 
@@ -287,7 +287,7 @@ img.emoji {
 <!-- .menu-modal -->
 		<div data-elementor-type="wp-page" data-elementor-id="195" class="elementor elementor-195" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-a986b1c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a986b1c" data-element_type="section">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-a986b1c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a986b1c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17c9ec1" data-id="17c9ec1" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -304,12 +304,11 @@ img.emoji {
 															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
 								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
 														</span>
-												<a class="elementor-accordion-title" data-wpel-link="internal">How does this work?</a>
+												<a class="elementor-accordion-title" data-wpel-link="internal">How does Donate a Beat work?</a>
 					</div>
 					<div id="elementor-tab-content-2051" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2051">
-<p>When you play a song on any music streaming app, the artist / creator earns some money (e.g. artists like Drake, J Balvin and Post Malone earned $53 million, $40 million and $37 million respectively from Spotify alone in 2020).</p>
-<p>Artists at <u>Donate a Beat</u> also create albums with a variety of music for you to enjoy. The money earned from streaming our music is donated to your favorite charitable cause.<span class="font-semibold"><br></span></p>
-<p><span class="font-semibold">More streams = More donations</span> so don&#8217;t forget to share so we can donate more.</p>
+<p>When you listen to music on streaming apps like Spotify, the artist / creator receives a royalty (e.g. artists like Drake, J Balvin and Post Malone earned $53 million, $40 million and $37 million respectively from Spotify alone in 2020).</p>
+<p><u>Donate a Beat</u> also creates albums with a variety of music for you to enjoy. Every time you stream one of our songs, the royalty gets donated to the cause mentioned in the song title.</p>
 </div>
 				</div>
 							<div class="elementor-accordion-item">
@@ -318,13 +317,9 @@ img.emoji {
 															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
 								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
 														</span>
-												<a class="elementor-accordion-title" data-wpel-link="internal">Financial Tranparency - how and where is the money spent?</a>
+												<a class="elementor-accordion-title" data-wpel-link="internal">What is Donate a Beat's mission?</a>
 					</div>
-					<div id="elementor-tab-content-2052" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2052">
-<p>80% of the money earned is donated to charitable organizations while 20% is used to support artists as well as our operational &amp; admin costs.</p>
-<p>For donating money, we partner with internationally recognized and accredited charities. Our team carefully vets cases so as to achieve the best value for money / impact while donating for each cause.</p>
-<p>We share detailed updates on all financial transactions in our newsletter to ensure full transparency. You can subscribe to our newsletter and view past updates <a href="https://donateabeat.substack.com/welcome" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">here</a>.</p>
-</div>
+					<div id="elementor-tab-content-2052" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2052"><p>Our mission is to create a better world through music. Help us by <a href="./../social-share/index.html" target="_blank" rel="noopener" data-wpel-link="internal">sharing</a> Donate a Beat.</p></div>
 				</div>
 							<div class="elementor-accordion-item">
 					<div id="elementor-tab-title-2053" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-2053" aria-expanded="false">
@@ -332,22 +327,11 @@ img.emoji {
 															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
 								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
 														</span>
-												<a class="elementor-accordion-title" data-wpel-link="internal">What causes can I support through Donate a Beat?</a>
+												<a class="elementor-accordion-title" data-wpel-link="internal">What kind of music do you create?</a>
 					</div>
 					<div id="elementor-tab-content-2053" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2053">
-<p>Currently, you can support the following causes:</p>
-<ul>
-<li>
-<b>Animal Welfare</b>: This includes support related to food, shelter, medical treatment, adoption and more for homeless / abandoned animals.</li>
-<li>
-<b>Climate Protection</b>: This includes support for efforts that aim to reverse or prevent climate change like preservation of forests, oceans, rivers and other natural resources.</li>
-<li>
-<b>Disaster Relief</b>: This includes support for people affected by some disaster (like hurricanes, floods, earthquakes) or pandemic (like covid-19).</li>
-<li>
-<b>Kids Welfare</b>: This includes support related to education, nutrition, adoption, healthcare and more for children.</li>
-<li>
-<b>General Welfare</b>: This includes support for any deserving charitable causes.</li>
-</ul>
+<p>Our artists create albums suitable for a variety of activities such as relaxing, focusing, working out and more.</p>
+<p>We are continuously working to expand our selection of music for your enjoyment. Subscribe to our <a href="./../subscribe/index.html" target="_blank" rel="noopener" data-wpel-link="internal">newsletter</a> to hear about new album releases and other updates.</p>
 </div>
 				</div>
 							<div class="elementor-accordion-item">
@@ -356,12 +340,22 @@ img.emoji {
 															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
 								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
 														</span>
-												<a class="elementor-accordion-title" data-wpel-link="internal">What kind of music do you create?</a>
+												<a class="elementor-accordion-title" data-wpel-link="internal">What causes can I support through Donate a Beat?</a>
 					</div>
 					<div id="elementor-tab-content-2054" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-2054">
-<p>Our first album contains music suitable for a variety of moods such as relaxed, upbeat, focused and workout.</p>
-<p>In addition, we are continuously working to expand our selection of music. Please subscribe to our <a href="https://donateabeat.substack.com/welcome" data-wpel-link="external" target="_blank" rel="nofollow external noopener noreferrer">newsletter</a> to hear about new album releases.</p>
-<p>Please continue streaming our music to help make this possible.</p>
+<p>Currently you can support one of the following causes through Donate a Beat:</p>
+<ul>
+<li>
+<b>Animal Welfare</b>: This helps rescuing / rehabilitating animals and protecting their natural habitats.</li>
+<li>
+<b>Child Welfare</b>: This helps support education, nutrition, healthcare and other basic needs of children.</li>
+<li>
+<b>Environmental Protection</b>: This helps to prevent climate change and preserve the biodiversity present in our forests, oceans, rivers and more.</li>
+<li>
+<b>Disaster Relief</b>: This helps people affected by disasters like hurricanes, floods, earthquakes.</li>
+<li>
+<b>Social Welfare</b>: This helps create a healthier, safer and more equitable future for everyone.</li>
+</ul>
 </div>
 				</div>
 							<div class="elementor-accordion-item">
@@ -370,11 +364,46 @@ img.emoji {
 															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
 								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
 														</span>
-												<a class="elementor-accordion-title" data-wpel-link="internal">When should I use Donate a Beat?</a>
+												<a class="elementor-accordion-title" data-wpel-link="internal">Where is the money donated?</a>
 					</div>
-					<div id="elementor-tab-content-2055" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-2055"><p>Anytime you like. Donate a Beat contains music suitable for a variety of moods like relaxed, focused, upbeat and workout. Just choose the appropriate music that goes along with your current activity.</p></div>
+					<div id="elementor-tab-content-2055" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-2055">
+<p>The money is donated to the following internationally accredited charities:</p>
+<ul>
+<li>For Animal Welfare: <a href="https://www.ifaw.org/international" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">International Fund for Animal Welfare</a>
+</li>
+<li>For Child Welfare: <a href="https://www.unicef.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">United Nations Children&#8217;s Fund</a>
+</li>
+<li>For Environment Protection: <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">The Nature Conservancy</a>
+</li>
+<li>For Disaster Relief: <a href="https://www.redcross.org/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">American Red Cross</a>
+</li>
+<li>For Social Welfare: <a href="https://www.theglobalfund.org/en/" target="_blank" rel="noopener nofollow external noreferrer" data-wpel-link="external">The Global Fund</a>
+</li>
+</ul>
+<p>Subscribe to our <a href="https://www.donateabeat.org/subscribe" data-wpel-link="external" rel="nofollow external noopener noreferrer">newsletter</a> to receive updates about the positive impact made possible by you and other &#8216;Donate a Beat&#8217; listeners.</p>
+</div>
 				</div>
-										<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does this work?","acceptedAnswer":{"@type":"Answer","text":"<p>When you play a song on any music streaming app, the artist \/ creator earns some money (e.g. artists like Drake, J Balvin and Post Malone earned $53 million, $40 million and $37 million respectively from Spotify alone in 2020).<\/p><p>Artists at <u>Donate a Beat<\/u> also create albums with a variety of music for you to enjoy. The money earned from streaming our music is donated to your favorite charitable cause.<span class=\"font-semibold\"><br \/><\/span><\/p><p><span class=\"font-semibold\">More streams = More donations<\/span> so don&#8217;t forget to share so we can donate more.<\/p>"}},{"@type":"Question","name":"Financial Tranparency - how and where is the money spent?","acceptedAnswer":{"@type":"Answer","text":"<p>80% of the money earned is donated to charitable organizations while 20% is used to support artists as well as our operational &amp; admin costs.<\/p><p>For donating money, we partner with internationally recognized and accredited charities. Our team carefully vets cases so as to achieve the best value for money \/ impact while donating for each cause.<\/p><p>We share detailed updates on all financial transactions in our newsletter to ensure full transparency. You can subscribe to our newsletter and view past updates <a href=\"https:\/\/donateabeat.substack.com\/welcome\" target=\"_blank\" rel=\"noopener\">here<\/a>.<\/p>"}},{"@type":"Question","name":"What causes can I support through Donate a Beat?","acceptedAnswer":{"@type":"Answer","text":"<p>Currently, you can support the following causes:<\/p><ul><li><b>Animal Welfare<\/b>: This includes support related to food, shelter, medical treatment, adoption and more for homeless \/ abandoned animals.<\/li><li><b>Climate Protection<\/b>: This includes support for efforts that aim to reverse or prevent climate change like preservation of forests, oceans, rivers and other natural resources.<\/li><li><b>Disaster Relief<\/b>: This includes support for people affected by some disaster (like hurricanes, floods, earthquakes) or pandemic (like covid-19).<\/li><li><b>Kids Welfare<\/b>: This includes support related to education, nutrition, adoption, healthcare and more for children.<\/li><li><b>General Welfare<\/b>: This includes support for any deserving charitable causes.<\/li><\/ul>"}},{"@type":"Question","name":"What kind of music do you create?","acceptedAnswer":{"@type":"Answer","text":"<p>Our first album contains music suitable for a variety of moods such as relaxed, upbeat, focused and workout.<\/p><p>In addition, we are continuously working to expand our selection of music. Please subscribe to our <a href=\"https:\/\/donateabeat.substack.com\/welcome\">newsletter<\/a> to hear about new album releases.<\/p><p>Please continue streaming our music to help make this possible.<\/p>"}},{"@type":"Question","name":"When should I use Donate a Beat?","acceptedAnswer":{"@type":"Answer","text":"<p>Anytime you like. Donate a Beat contains music suitable for a variety of moods like relaxed, focused, upbeat and workout. Just choose the appropriate music that goes along with your current activity.<\/p>"}}]}</script>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2056" class="elementor-tab-title" data-tab="6" role="tab" aria-controls="elementor-tab-content-2056" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" data-wpel-link="internal">How does Donate a Beat get money to operate?</a>
+					</div>
+					<div id="elementor-tab-content-2056" class="elementor-tab-content elementor-clearfix" data-tab="6" role="tabpanel" aria-labelledby="elementor-tab-title-2056"><p>Producing new music for your enjoyment and managing our operations does require money. We use a small percentage of the royalty (typically 10%) to meet these expenses while the remaining 90% of the royalty gets donated to the charities mentioned above.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2057" class="elementor-tab-title" data-tab="7" role="tab" aria-controls="elementor-tab-content-2057" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" data-wpel-link="internal">Who started this?</a>
+					</div>
+					<div id="elementor-tab-content-2057" class="elementor-tab-content elementor-clearfix" data-tab="7" role="tabpanel" aria-labelledby="elementor-tab-title-2057"><p>Hi! I&#8217;m Adi. I&#8217;m a programmer / mechanical engineer / entrepreneur who likes to work on fun projects. You can contact me at <a href="mailto:adi_here@outlook.com">adi_here@outlook.com</a></p></div>
+				</div>
+										<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does Donate a Beat work?","acceptedAnswer":{"@type":"Answer","text":"<p>When you listen to music on streaming apps like Spotify, the artist \/ creator receives a royalty (e.g. artists like Drake, J Balvin and Post Malone earned $53 million, $40 million and $37 million respectively from Spotify alone in 2020).<\/p><p><u>Donate a Beat<\/u> also creates albums with a variety of music for you to enjoy. Every time you stream one of our songs, the royalty gets donated to the cause mentioned in the song title.<\/p>"}},{"@type":"Question","name":"What is Donate a Beat's mission?","acceptedAnswer":{"@type":"Answer","text":"<p>Our mission is to create a better world through music. Help us by <a href=\".\/social-share\/\" target=\"_blank\" rel=\"noopener\">sharing<\/a> Donate a Beat.<\/p>"}},{"@type":"Question","name":"What kind of music do you create?","acceptedAnswer":{"@type":"Answer","text":"<p>Our artists create albums suitable for a variety of activities such as relaxing, focusing, working out and more.<\/p><p>We are continuously working to expand our selection of music for your enjoyment. Subscribe to our <a href=\".\/subscribe\/\" target=\"_blank\" rel=\"noopener\">newsletter<\/a> to hear about new album releases and other updates.<\/p>"}},{"@type":"Question","name":"What causes can I support through Donate a Beat?","acceptedAnswer":{"@type":"Answer","text":"<p>Currently you can support one of the following causes through Donate a Beat:<\/p><ul><li><b>Animal Welfare<\/b>: This helps rescuing \/ rehabilitating animals and protecting their natural habitats.<\/li><li><b>Child Welfare<\/b>: This helps support education, nutrition, healthcare and other basic needs of children.<\/li><li><b>Environmental Protection<\/b>: This helps to prevent climate change and preserve the biodiversity present in our forests, oceans, rivers and more.<\/li><li><b>Disaster Relief<\/b>: This helps people affected by disasters like hurricanes, floods, earthquakes.<\/li><li><b>Social Welfare<\/b>: This helps create a healthier, safer and more equitable future for everyone.<\/li><\/ul>"}},{"@type":"Question","name":"Where is the money donated?","acceptedAnswer":{"@type":"Answer","text":"<p>The money is donated to the following internationally accredited charities:<\/p><ul><li>For Animal Welfare: <a href=\"https:\/\/www.ifaw.org\/international\" target=\"_blank\" rel=\"noopener\">International Fund for Animal Welfare<\/a><\/li><li>For Child Welfare: <a href=\"https:\/\/www.unicef.org\/\" target=\"_blank\" rel=\"noopener\">United Nations Children&#8217;s Fund<\/a><\/li><li>For Environment Protection: <a href=\"https:\/\/www.nature.org\/en-us\/\" target=\"_blank\" rel=\"noopener\">The Nature Conservancy<\/a><\/li><li>For Disaster Relief: <a href=\"https:\/\/www.redcross.org\/\" target=\"_blank\" rel=\"noopener\">American Red Cross<\/a><\/li><li>For Social Welfare: <a href=\"https:\/\/www.theglobalfund.org\/en\/\" target=\"_blank\" rel=\"noopener\">The Global Fund<\/a><\/li><\/ul><p>Subscribe to our <a href=\"https:\/\/www.donateabeat.org\/subscribe\">newsletter<\/a> to receive updates about the positive impact made possible by you and other &#8216;Donate a Beat&#8217; listeners.<\/p>"}},{"@type":"Question","name":"How does Donate a Beat get money to operate?","acceptedAnswer":{"@type":"Answer","text":"<p>Producing new music for your enjoyment and managing our operations does require money. We use a small percentage of the royalty (typically 10%) to meet these expenses while the remaining 90% of the royalty gets donated to the charities mentioned above.<\/p>"}},{"@type":"Question","name":"Who started this?","acceptedAnswer":{"@type":"Answer","text":"<p>Hi! I&#8217;m Adi. I&#8217;m a programmer \/ mechanical engineer \/ entrepreneur who likes to work on fun projects. You can contact me at <a href=\"mailto:adi_here@outlook.com\">adi_here@outlook.com<\/a><\/p>"}}]}</script>
 					</div>
 				</div>
 				</div>
@@ -412,23 +441,23 @@ img.emoji {
 			</footer><!-- #site-footer -->
 
 			<div id="fb-root"></div>
-	<link rel="stylesheet" id="e-animations-css" href="./../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.3" media="all">
+	<link rel="stylesheet" id="e-animations-css" href="./../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.4" media="all">
 <script src="./../wp-content/plugins/super-socializer/js/front/social_login/general.js?ver=7.13.25" id="the_champ_ss_general_scripts-js"></script>
 <script src="./../wp-content/plugins/super-socializer/js/front/facebook/sdk.js?ver=7.13.25" id="the_champ_fb_sdk-js"></script>
 <script src="./../wp-content/plugins/super-socializer/js/front/sharing/sharing.js?ver=7.13.25" id="the_champ_share_counts-js"></script>
 <script src="./../wp-includes/js/wp-embed.min.js?ver=5.8.1" id="wp-embed-js"></script>
-<script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.3" id="elementor-webpack-runtime-js"></script>
-<script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.3" id="elementor-frontend-modules-js"></script>
+<script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.4" id="elementor-webpack-runtime-js"></script>
+<script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.4" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
-<script src="./../wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.3" id="share-link-js"></script>
+<script src="./../wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.4" id="share-link-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"additional_custom_breakpoints":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true},"urls":{"assets":".\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":195,"title":"FAQs%20%E2%80%93%20Donate%20a%20Beat","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"additional_custom_breakpoints":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true},"urls":{"assets":".\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":195,"title":"FAQs%20%E2%80%93%20Donate%20a%20Beat","excerpt":"","featuredImage":false}};
 </script>
-<script src="./../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.3" id="elementor-frontend-js"></script>
-<script src="./../wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.3" id="preloaded-modules-js"></script>
+<script src="./../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.4" id="elementor-frontend-js"></script>
+<script src="./../wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.4" id="preloaded-modules-js"></script>
 	<script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script>
